@@ -8,16 +8,16 @@
 using namespace std;
 struct E{
 int length;
-int dest;
+int dest;//index of dest. city
 };
 struct Node {
 	
 	int ldst=-1;
 	int inec=0;
-	vector <E> adj;
+	vector <E> adj;// adjacency list
 };
 
-vector <Node*> cities;
+vector <Node*> cities;//city list
 int main(int argc, char *argv[]){
 if(argc!=3){
 		printf("Usage: ./distance infile outfile\n");
