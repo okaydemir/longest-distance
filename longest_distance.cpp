@@ -12,8 +12,8 @@ int dest;//index of dest. city
 };
 struct Node {
 	
-	int ldst=-1;
-	int inec=0;
+	int ldst=-1;//longest distance to this node
+	int inec=0;//incoming edge count
 	vector <E> adj;// adjacency list
 };
 
