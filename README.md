@@ -1,7 +1,7 @@
 # longest-distance
-c++ Finding longest path in a directed acyclic graph
-https://en.wikipedia.org/wiki/Directed_acyclic_graph
-https://en.wikipedia.org/wiki/Topological_sorting
+c++ Finding longest path in a directed acyclic graph </br>
+https://en.wikipedia.org/wiki/Directed_acyclic_graph </br>
+https://en.wikipedia.org/wiki/Topological_sorting </br>
 
 # Input Format:
 In the first line, four space separated integers; the number of cities N (2<=N<=100 000), the number of directed roads M (2<=M<=1 000 000), the starting city s (1<=s<=N) and the destination city t (1<=t<=N).
